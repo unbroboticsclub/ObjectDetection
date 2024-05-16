@@ -25,13 +25,17 @@ Setup and Installation
 
   
 Usage
+
 To start the object detection, run the main script provided in the repository. The system will activate the camera and begin detecting objects in its field of view. Results will be displayed in real-time on the connected display or within an SSH terminal session.
 
 Contributing
+
 We welcome contributions from all club members and the community. Whether it's refining the model, enhancing the software architecture, or testing the system under different conditions, your input is valuable. Please see the CONTRIBUTING.md file for more details on how to propose improvements or submit pull requests.
 
 License
+
 This project is released under the MIT License. See the LICENSE file for more details.
 
 Acknowledgments
+
 Thanks to the University Robotics Club members for their dedication and effort in bringing this project to life. Special thanks to our mentors and advisors who provided invaluable guidance throughout the development process.
