@@ -1,6 +1,7 @@
 Raspberry Pi 5 Object Detection Using TensorFlow and OpenCV
 
 Project Overview
+
 This project aims to develop a lightweight, efficient object detection system using TensorFlow and OpenCV on the new Raspberry Pi 5. Designed to introduce practical applications of artificial intelligence in robotics, this system can recognize and locate objects in real time from video streams captured through the Raspberry Pi camera. The project involves developing a custom model from scratch, training it with a suitable dataset, and deploying it to the Raspberry Pi using TensorFlow Lite to achieve real-time performance.
 
 
