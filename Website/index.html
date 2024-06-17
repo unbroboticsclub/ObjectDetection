@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNB Robotics Club</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="images/fav.png" type="image/png">
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.min.css' rel='stylesheet' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.min.js'></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li class="dropdown">
+                <a href="events.html" class="dropbtn">Events</a>
+                <div class="dropdown-content">
+                    <a href="competition.html">Robotics Competition</a>
+                    <a href="bootcamps.html">Bootcamps</a>
+                    <a href="workshop.html">Summer High School Workshop</a>
+                </div>
+            </li>
+            <li><a href="team.html">Our Team</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>UNB Robotics Club</h1>
+    <div id="slider">
+        <button id="prev">&lt;</button>
+        <div class="slides">
+            <img src="images/peper.jpg" alt="peper">
+            <img src="images/peper.jpg" alt="peper">
+            <img src="images/imagerecognition.png" alt="Image Recognition">
+            <img src="images/systemsgo.png" alt="Systems Go">
+        </div>
+        <button id="next">&gt;</button>
+    </div>
+    <div id="calendar-container">
+        <div id="calendar"></div>
+        <a href="https://calendar.google.com/calendar/u/0/r/eventedit" target="_blank" id="google-calendar-button">Add to Google Calendar</a>
+    </div>
+    <div class="subscribe">
+        <h2>Subscribe to our Newsletter</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="contact-info">
+        <p>Head Hall Room H301, 15 Dineen Drive, Fredericton E3B 5A3</p>
+        <p>Meeting Times: 6:30-8:30 PM</p>
+    </div>
+    <div class="social-media">
+        <a href="https://www.instagram.com/unbrobotics/" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61551783879025" target="_blank">Facebook</a>
+        <a href="https://teams.microsoft.com/l/team/19%3an2WPjt--VP2pwetVQxwXzi56bOXg8Sp20rljxdlsmVg1%40thread.tacv2/conversations?groupId=93b957f6-b828-43a1-972a-b6c336c8d650&tenantId=244e6ed2-339a-47f3-b95c-e45351c198b7" target="_blank">Teams</a>
+        <a hreh="https://github.com/unbroboticsclub">GitHub</a>
+    </div>
+</footer>
+<script src="js/index.js"></script>
+</body>
+</html>
+
